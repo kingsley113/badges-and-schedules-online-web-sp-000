@@ -29,7 +29,7 @@ end
 def printer(attendees)
   names = batch_badge_creator(attendees)
   rooms = assign_rooms(attendees)
-
+puts "#{names} #{rooms}"
   attendees.each do
   counter = 0
     puts "#{names[counter]}" #{rooms[counter]}"
