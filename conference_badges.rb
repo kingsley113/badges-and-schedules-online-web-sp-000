@@ -17,7 +17,7 @@ def assign_rooms(names)
   names.each_with_index do |name, index|
     puts "Hello, #{name}! You'll be assigned to room #{index}!"
   end
-  names
+  puts "#{names}"
 end
 
 
