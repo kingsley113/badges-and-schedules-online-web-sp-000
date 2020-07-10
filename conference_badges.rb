@@ -26,6 +26,6 @@ end
 
 
 
-def printer(name, room)
-
+def printer(name)
+  puts "#{batch_badge_creator(name)} #{assign_rooms(name)}"
 end
