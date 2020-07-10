@@ -31,6 +31,6 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
 
   counter = 0
-    puts "#{names[counter]} #{rooms[counter]}"
+    puts "#{names[counter]}" #{rooms[counter]}"
     counter += 1
 end
