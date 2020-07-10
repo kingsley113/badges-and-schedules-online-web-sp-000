@@ -5,6 +5,7 @@ end
 
 def batch_badge_creator(names)
   counter = 0
+  badges = []
   names.each do |name|
     badges[counter] = badge_maker(name)
     counter += 1
