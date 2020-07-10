@@ -33,7 +33,7 @@ def printer(attendees)
   counter = 0
 
   attendees.each do
-    puts "#{names[counter]}" #{rooms[counter]}"
+    puts "#{names[counter]} #{rooms[counter]}"
     counter += 1
   end
 end
