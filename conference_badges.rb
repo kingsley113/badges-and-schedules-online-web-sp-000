@@ -33,5 +33,4 @@ def printer(attendees)
   counter = 0
     puts "#{names[counter]} #{rooms[counter]}"
     counter += 1
-  end
 end
