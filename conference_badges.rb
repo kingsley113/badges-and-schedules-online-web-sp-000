@@ -17,7 +17,7 @@ def assign_rooms(names)
   counter = 0
   name_with_room = []
   names.each_with_index do |name, index|
-    name_with_room[counter] = "Hello, #{name}! You'll be assigned to room #{index}!"
+    name_with_room[counter] = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
     counter += 1
   end
   name_with_room
