@@ -26,9 +26,9 @@ end
 
 
 
-def printer(name)
+def printer(names)
   counter = 0
-  name.each do | print |
+  names.each do | name |
     puts "#{batch_badge_creator(name[counter])} #{assign_rooms(name[counter])}"
     counter += 1
   end
